@@ -1,17 +1,16 @@
-package webdrivertest;
+package webdriv;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WebDrTest {
+public class Demo3 {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
+        driver.navigate().to("https://ya.ru");
+        driver.navigate().back();
+        driver.navigate().refresh();
         driver.close();
         driver.quit();
-
     }
-
 }

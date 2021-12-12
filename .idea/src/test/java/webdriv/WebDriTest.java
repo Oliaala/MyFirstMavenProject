@@ -1,4 +1,4 @@
-package webdrivertest;
+package webdriv;
 
 import net.bytebuddy.agent.builder.AgentBuilder;
 import org.junit.Test;

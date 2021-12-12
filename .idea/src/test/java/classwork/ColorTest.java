@@ -1,4 +1,4 @@
-package ClassWork;
+package classWork;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
